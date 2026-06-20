@@ -1,0 +1,32 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="40" fill="#07111F"/>
+  <rect x="36" y="36" width="1128" height="648" rx="28" fill="url(#bg)" stroke="#38BDF8" stroke-opacity="0.24"/>
+  <rect x="80" y="88" width="1040" height="72" rx="18" fill="#111827" fill-opacity="0.95"/>
+  <circle cx="122" cy="124" r="12" fill="#F43F5E"/>
+  <circle cx="158" cy="124" r="12" fill="#F59E0B"/>
+  <circle cx="194" cy="124" r="12" fill="#22C55E"/>
+  <rect x="260" y="112" width="240" height="20" rx="10" fill="#E2E8F0" fill-opacity="0.85"/>
+  <rect x="520" y="112" width="200" height="20" rx="10" fill="#38BDF8" fill-opacity="0.4"/>
+  <rect x="104" y="226" width="300" height="18" rx="9" fill="#E2E8F0" fill-opacity="0.95"/>
+  <rect x="104" y="260" width="560" height="28" rx="14" fill="#38BDF8" fill-opacity="0.25"/>
+  <rect x="104" y="306" width="720" height="20" rx="10" fill="#E2E8F0" fill-opacity="0.7"/>
+  <rect x="104" y="342" width="640" height="20" rx="10" fill="#E2E8F0" fill-opacity="0.45"/>
+  <rect x="104" y="388" width="220" height="18" rx="9" fill="#F9A8D4" fill-opacity="0.65"/>
+  <rect x="780" y="214" width="320" height="238" rx="28" fill="#020617" stroke="#38BDF8" stroke-opacity="0.4"/>
+  <path d="M836 388C836 350.026 866.026 320 904 320H936C973.974 320 1004 350.026 1004 388V388H836V388Z" fill="#F59E0B" fill-opacity="0.8"/>
+  <rect x="830" y="260" width="176" height="16" rx="8" fill="#E2E8F0" fill-opacity="0.8"/>
+  <rect x="830" y="290" width="228" height="14" rx="7" fill="#E2E8F0" fill-opacity="0.4"/>
+  <rect x="830" y="324" width="112" height="12" rx="6" fill="#38BDF8" fill-opacity="0.6"/>
+  <rect x="96" y="560" width="280" height="56" rx="20" fill="#111827" stroke="#38BDF8" stroke-opacity="0.2"/>
+  <rect x="402" y="560" width="220" height="56" rx="20" fill="#111827" stroke="#38BDF8" stroke-opacity="0.2"/>
+  <rect x="646" y="560" width="220" height="56" rx="20" fill="#111827" stroke="#38BDF8" stroke-opacity="0.2"/>
+  <text x="130" y="596" fill="#E2E8F0" font-family="'Space Grotesk', 'Arial', sans-serif" font-size="24" font-weight="600">Project preview</text>
+  <text x="436" y="596" fill="#94A3B8" font-family="'IBM Plex Mono', monospace" font-size="18">Replace with</text>
+  <text x="680" y="596" fill="#94A3B8" font-family="'IBM Plex Mono', monospace" font-size="18">your screenshot</text>
+  <defs>
+    <linearGradient id="bg" x1="120" y1="80" x2="1080" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+  </defs>
+</svg>

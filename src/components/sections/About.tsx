@@ -33,14 +33,35 @@ export function About() {
             </div>
           </Reveal>
         </Stagger>
-        <div className="space-y-4">
-          {siteConfig.about.values.map((value, index) => (
-            <Reveal key={value} delay={0.1 * index}>
-              <Card className="p-5">
-                <p className="text-sm text-muted">{value}</p>
-              </Card>
-            </Reveal>
-          ))}
+        <div className="space-y-6">
+          <Reveal>
+            <Card className="space-y-4">
+              <div className="media-frame h-56">
+                {siteConfig.about.portrait.src ? (
+                  <img
+                    src={siteConfig.about.portrait.src}
+                    alt={siteConfig.about.portrait.alt}
+                    className="h-full w-full object-cover"
+                    loading="lazy"
+                  />
+                ) : (
+                  <div className="flex h-full items-center justify-center text-xs uppercase tracking-[0.25em] text-muted">
+                    {siteConfig.about.portrait.note}
+                  </div>
+                )}
+              </div>
+              <p className="text-xs uppercase tracking-[0.2em] text-muted">Workspace snapshot</p>
+            </Card>
+          </Reveal>
+          <div className="space-y-4">
+            {siteConfig.about.values.map((value, index) => (
+              <Reveal key={value} delay={0.1 * index}>
+                <Card className="p-5">
+                  <p className="text-sm text-muted">{value}</p>
+                </Card>
+              </Reveal>
+            ))}
+          </div>
         </div>
       </div>
     </Section>

@@ -1,9 +1,12 @@
-import { Github, Linkedin, Mail, Twitter } from 'lucide-react'
+import { Linkedin, Mail, Phone } from 'lucide-react'
 import type { SocialLink } from '@/types'
 
 export const socials: SocialLink[] = [
-  { label: 'GitHub', href: '#', icon: Github },
-  { label: 'LinkedIn', href: '#', icon: Linkedin },
-  { label: 'Twitter', href: '#', icon: Twitter },
-  { label: 'Email', href: 'mailto:hello@yourdomain.com', icon: Mail }
+  {
+    label: 'LinkedIn',
+    href: 'https://www.linkedin.com/in/john-lorenz-caranza-08014115a/',
+    icon: Linkedin
+  },
+  { label: 'Email', href: 'mailto:johnlorenzcaranza27@gmail.com', icon: Mail },
+  { label: 'Phone', href: 'tel:+639766789751', icon: Phone }
 ]

@@ -1,66 +1,83 @@
 import type { SectionConfig } from '@/types'
 
 export const siteConfig = {
-  name: 'Alex Meridian',
-  role: 'Senior Full-Stack Developer',
-  tagline: 'Designing immersive, production-ready digital products with a focus on clarity, speed, and business impact.',
-  location: 'Remote / San Francisco, CA',
-  availability: 'Available for select freelance and product collaborations.',
+  name: 'John Lorenz Benavidez Caranza',
+  role: 'Full-Stack Web Developer',
+  tagline:
+    'Building Laravel and React-based systems for academic, internship, and business workflows with a practical, production-minded approach.',
+  navLinks: [
+    { id: 'hero', label: 'Home' },
+    { id: 'projects', label: 'Projects' },
+    { id: 'experience', label: 'Experience' },
+    { id: 'contact', label: 'Contact' }
+  ],
+  location: 'Science City of Muñoz, Nueva Ecija, Philippines',
+  availability: 'Open to web development opportunities and collaborations.',
   hero: {
-    headline: 'I build cinematic, high-performance web experiences.',
+    headline: 'I build full-stack web systems that support real workflows.',
     subheadline:
-      'A full-stack engineer shaping premium user journeys, scalable systems, and modern product identities.',
+      'A BSIT graduate with hands-on experience building Laravel-driven platforms, responsive interfaces, dashboards, and workflow automation for academic and business use cases.',
+    portrait: {
+      src: '',
+      alt: 'Portrait of John Lorenz Benavidez Caranza',
+      note: 'Add portrait image'
+    },
     primaryCta: {
       label: 'View Projects',
       href: '#projects'
     },
     secondaryCta: {
-      label: 'Start a Project',
+      label: 'Contact Me',
       href: '#contact'
     },
     focus: {
       kicker: 'Current focus',
-      title: 'Product systems + motion-first UI',
+      title: 'Laravel, React, and database-driven applications',
       description:
-        'Building premium digital experiences with composable design systems and fast delivery.',
+        'Creating practical web solutions with clear UI, role-based workflows, notifications, and maintainable architecture.',
       facts: [
-        { label: 'Role', value: 'Senior Full-Stack Developer' },
-        { label: 'Location', value: 'Remote / San Francisco, CA' },
-        { label: 'Availability', value: 'Open for 2026' },
-        { label: 'Focus', value: 'Full-stack delivery' }
+        { label: 'Role', value: 'Full-Stack Web Developer' },
+        { label: 'Location', value: 'Science City of Muñoz, Nueva Ecija' },
+        { label: 'Availability', value: 'Available for opportunities' },
+        { label: 'Focus', value: 'Laravel + React + MySQL' }
       ],
-      tags: ['React', 'TypeScript', 'Tailwind', 'Framer Motion']
+      tags: ['Laravel', 'React', 'PHP', 'MySQL', 'Docker']
     }
   },
   about: {
-    lead: 'I blend engineering discipline with creative direction to craft products that feel effortless and refined.',
+    lead: 'I combine hands-on development experience with a strong foundation in web engineering, testing, and documentation.',
     story:
-      'With a background spanning startups, agencies, and product teams, I help founders and teams deliver polished experiences that scale. My process is rooted in discovery, rapid prototyping, and careful execution across frontend, backend, and infrastructure.',
+      'As a Cum Laude BSIT graduate, I have built academic and internship systems using Laravel, Livewire, PHP, MySQL, Tailwind CSS, Docker, and Vite. My work spans responsive interfaces, role-based access, reporting, notifications, and QA-tested modules for real users and administrators.',
+    portrait: {
+      src: '',
+      alt: 'Workspace portrait',
+      note: 'Add workspace photo'
+    },
     values: [
-      'Product-first collaboration with measurable outcomes',
-      'Systems thinking for performance, reliability, and clarity',
-      'Design-forward implementation that respects accessibility'
+      'Reliable, maintainable web applications',
+      'Practical problem-solving for academic and business systems',
+      'Clear communication and team-oriented development'
     ]
   },
   stats: [
-    { label: 'Years shipping products', value: 8, suffix: '+' },
-    { label: 'Projects delivered', value: 40, suffix: '+' },
-    { label: 'Avg. Lighthouse score', value: 95, suffix: '' }
+    { label: 'Projects built', value: 5, suffix: '+' },
+    { label: 'Academic & internship systems', value: 3, suffix: '+' },
+    { label: 'Technologies used', value: 10, suffix: '+' }
   ],
   seo: {
-    title: 'Developer Portfolio | Alex Meridian',
-    description: 'Premium developer portfolio template built with React, TypeScript, Tailwind, and Framer Motion.',
-    ogTitle: 'Developer Portfolio Template',
-    ogDescription: 'A cinematic, modern portfolio for full-stack developers and product engineers.'
+    title: 'John Lorenz Caranza | Full-Stack Web Developer',
+    description: 'Resume-focused portfolio for John Lorenz Benavidez Caranza, featuring Laravel, React, PHP, MySQL, and full-stack web development projects.',
+    ogTitle: 'John Lorenz Caranza Portfolio',
+    ogDescription: 'Portfolio showcasing web development projects and experience for John Lorenz Benavidez Caranza.'
   },
   contact: {
-    headline: 'Let us build the next product together.',
+    headline: 'Let’s connect.',
     description:
-      'Share a short brief and I will respond within 48 hours with a tailored plan and timeline.',
-    email: 'hello@yourdomain.com',
+      'Open to internships, freelance work, and full-time opportunities in web development.',
+    email: 'johnlorenzcaranza27@gmail.com',
     calendly: '',
     formspree: '',
-    helper: 'Replace this email with your own or connect a form provider in the README instructions.'
+    helper: 'Phone: +63 976 678 9751 • LinkedIn: linkedin.com/in/john-lorenz-caranza-08014115a'
   }
 }
 
@@ -70,8 +87,5 @@ export const sections: SectionConfig[] = [
   { id: 'skills', label: 'Skills', enabled: true },
   { id: 'projects', label: 'Projects', enabled: true },
   { id: 'experience', label: 'Experience', enabled: true },
-  { id: 'services', label: 'Services', enabled: true },
-  { id: 'testimonials', label: 'Testimonials', enabled: true },
-  { id: 'media', label: 'Showcase', enabled: true },
   { id: 'contact', label: 'Contact', enabled: true }
 ]

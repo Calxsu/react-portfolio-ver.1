@@ -8,10 +8,12 @@ type SectionHeadingProps = {
 
 export function SectionHeading({ title, subtitle, eyebrow }: SectionHeadingProps) {
   return (
-    <div className="mb-10 max-w-2xl">
-      {eyebrow ? <Badge>{eyebrow}</Badge> : null}
-      <h2 className="mt-4 text-3xl font-semibold text-text sm:text-4xl">{title}</h2>
-      <p className="mt-3 text-base text-muted sm:text-lg">{subtitle}</p>
+    <div className="mb-12 max-w-2xl">
+      {eyebrow ? <Badge className="text-[11px] tracking-[0.3em]">{eyebrow}</Badge> : null}
+      <h2 className="mt-4 text-[clamp(2rem,3.6vw,2.8rem)] font-semibold leading-tight text-text">
+        {title}
+      </h2>
+      <p className="mt-4 text-base text-muted sm:text-lg">{subtitle}</p>
     </div>
   )
 }

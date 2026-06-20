@@ -9,7 +9,7 @@ type SectionProps = HTMLAttributes<HTMLElement> & {
 
 export function Section({ id, className, children, ...props }: SectionProps) {
   return (
-    <section id={id} className={cn('py-16 sm:py-20', className)} {...props}>
+    <section id={id} className={cn('py-20 sm:py-24', className)} {...props}>
       <Container>{children}</Container>
     </section>
   )

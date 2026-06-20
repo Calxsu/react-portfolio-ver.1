@@ -2,23 +2,23 @@ import type { SkillCategory } from '@/types'
 
 export const skills: SkillCategory[] = [
   {
-    title: 'Frontend',
-    items: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Framer Motion', 'Storybook']
+    title: 'Web Development',
+    items: ['Laravel', 'React.js', 'Livewire', 'PHP', 'HTML', 'CSS', 'JavaScript']
   },
   {
-    title: 'Backend',
-    items: ['Node.js', 'REST APIs', 'GraphQL', 'Authentication', 'Event-driven systems']
+    title: 'Backend & Databases',
+    items: ['MySQL', 'SQLite', 'Eloquent ORM', 'REST API fundamentals', 'Role-based access']
   },
   {
-    title: 'Data',
-    items: ['PostgreSQL', 'Redis', 'Prisma', 'Data modeling', 'Analytics instrumentation']
+    title: 'Frontend UI',
+    items: ['Tailwind CSS', 'Bootstrap', 'Responsive UI', 'Dashboards', 'Form workflows']
   },
   {
-    title: 'Cloud & DevOps',
-    items: ['Docker', 'CI/CD pipelines', 'Nginx', 'Observability', 'Infrastructure as code']
+    title: 'Tools & Delivery',
+    items: ['Docker', 'Vite', 'Git', 'Nginx', 'QA testing', 'Documentation']
   },
   {
-    title: 'Product',
-    items: ['Design systems', 'UX collaboration', 'Accessibility', 'Performance budgets']
+    title: 'Additional Strengths',
+    items: ['Communication', 'Teamwork', 'Adaptability', 'Problem-solving', 'Attention to detail']
   }
 ]

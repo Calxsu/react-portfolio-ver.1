@@ -40,6 +40,8 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-bg text-text">
+      <div className="app-background" />
+      <div className="app-grid" />
       <Navbar />
       <main className="pt-4">
         {enabledSections.map((section) => (

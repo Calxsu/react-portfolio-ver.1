@@ -1,38 +1,38 @@
 export const sectionCopy = {
   about: {
     eyebrow: 'About',
-    title: 'Building digital products with craft and clarity',
-    subtitle: 'A product-focused approach that blends design, engineering, and velocity.'
+    title: 'A practical developer with hands-on web experience',
+    subtitle: 'Focused on Laravel-based systems, responsive interfaces, and role-based workflows that support real users.'
   },
   skills: {
     eyebrow: 'Skills',
-    title: 'A curated stack for modern product delivery',
-    subtitle: 'Balanced across design, engineering, and deployment for full-lifecycle ownership.'
+    title: 'Core tools used across my projects',
+    subtitle: 'Balanced across frontend development, backend logic, databases, and delivery tools.'
   },
   projects: {
     eyebrow: 'Featured',
-    title: 'Selected work with measurable outcomes',
-    subtitle: 'Each project balances cinematic presentation with production-level performance.'
+    title: 'Selected projects from my resume',
+    subtitle: 'Projects built for academic, internship, and small business workflows with clear user-facing outcomes.'
   },
   experience: {
     eyebrow: 'Experience',
-    title: 'A timeline of product delivery',
-    subtitle: 'Focused on outcomes, systems thinking, and clear communication across teams.'
+    title: 'Relevant experience and project work',
+    subtitle: 'Built systems through internship, capstone, and freelance-style development work.'
   },
   services: {
     eyebrow: 'Services',
-    title: 'How I can support your team',
-    subtitle: 'Modular offerings that scale from short sprints to full product partnerships.'
+    title: 'Available support for small web projects',
+    subtitle: 'Focused on practical website and web app development for student, academic, and business needs.'
   },
   testimonials: {
     eyebrow: 'Testimonials',
-    title: 'Trusted by product teams and founders',
-    subtitle: 'Social proof that underscores delivery, clarity, and collaborative execution.'
+    title: 'Feedback from project work and collaboration',
+    subtitle: 'A short summary of the kind of delivery and teamwork reflected in my work.'
   },
   media: {
     eyebrow: 'Showcase',
-    title: 'Motion, media, and product storytelling',
-    subtitle: 'Drop in walkthroughs, demo reels, or animated previews to elevate the narrative.'
+    title: 'Project snapshots and visual highlights',
+    subtitle: 'Use this space to feature screenshots, demos, or GIFs of completed work.'
   },
   contact: {
     eyebrow: 'Contact'
