@@ -22,11 +22,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Build Docker image
-        run: docker build -f Dockerfile -t react-portfolio-ver1-app .
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
 
-      - name: Build static site inside Docker image
-        run: docker run --rm react-portfolio-ver1-app npm run build
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build static site
+        run: npm run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
