@@ -1,9 +1,14 @@
-FROM node:20-alpine AS build
+FROM node:20-slim AS build
 
 WORKDIR /app
 
 COPY package.json package-lock.json* ./
-RUN npm install
+RUN npm install -g npm@9 && npm install && \
+  if [ "$(uname -m)" = "x86_64" ]; then \
+    npm install @rollup/rollup-linux-x64-gnu@4.60.4; \
+  elif [ "$(uname -m)" = "aarch64" ]; then \
+    npm install @rollup/rollup-linux-arm64-gnu@4.60.4; \
+  fi
 
 COPY . .
 RUN npm run build
